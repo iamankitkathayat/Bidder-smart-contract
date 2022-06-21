@@ -1,12 +1,12 @@
 pragma solidity ^0.4.0;
 contract Bidder{
     string public name;
-    uint public bidAmount = 20000;
+    uint public bidAmount = 30000;
     bool public eligible;
-    uint constant minBid = 1000;
+    uint constant minBid = 1500;
     
-    function setName(string nm) public{
-        name = nm;
+    function setName(string naam) public{
+        name = naam;
     }
     function setBidAmount(uint x) public{
         bidAmount = x;
