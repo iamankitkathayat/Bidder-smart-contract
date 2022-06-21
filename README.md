@@ -1,1 +1,1 @@
-# Bidder-smart-contract
+A smart contract called 'Bidder' written in solidity
